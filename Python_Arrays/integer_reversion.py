@@ -2,10 +2,11 @@
 
 #Our task is to design an efficient algorithm to reverse a given integer. For example if the input of the algorithm is 1234 then the output should be 4321
 #Using string operations
-'''i=1234
+i=1234
 i=str(i)
-print(i[::-1])'''
+print(i[::-1])
 
+#Designing algorithm
 def reverse_integer(n):
     rev =0
     rem = 0
