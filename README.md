@@ -87,3 +87,19 @@ What if data structure becomes full?
 -> It is not dynamic.
 
 -> Usually do not store items with different data types.
+
+### 3. Linked Lists
+
+-> Another data structure whose aim is to able to store items efficiently (insertion and removal operations).
+
+->Arrays "holes" disadvantages can be covered using the linked list.
+
+->We have the access to the first node of the linked node and other items can be accessed by this node.
+
+-> Last node is pointing to the NULL.
+
+->Every node stores the data itself and a reference the next node in the linked list data structure.
+
+-> Hence, Linked lists require more memory than arrays.
+
+->Advantage-> There is no holes in data structures as there is no shifting item.
