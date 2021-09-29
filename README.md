@@ -88,7 +88,7 @@ What if data structure becomes full?
 
 -> Usually do not store items with different data types.
 
-### 3. Linked Lists
+## 3. Linked Lists
 
 -> Another data structure whose aim is to able to store items efficiently (insertion and removal operations).
 
@@ -102,4 +102,38 @@ What if data structure becomes full?
 
 -> Hence, Linked lists require more memory than arrays.
 
-->Advantage-> There is no holes in data structures as there is no shifting item.
+->Advantage
+      -> There is no holes in data structures as there is no shifting item.
+      
+      ->Easy data structures and easy to implement them.
+      
+      ->Implement more complex structure and abstract data types such as stacks and queues.
+      
+      ->We can insert item at the beginning of the data structure fast- O(1) running time.
+      
+      ->Slow operatin to insert the item at the end-O(N) running time.
+      
+### Linked List Operations
+
+1. Maninpulation he first item (insertion or removal)
+                  O(1) running time-this is why we like linkedi lists.
+                 
+2. Manipulating arbitrary item
+                  O(N) running time-if we have to do several of these operations then linked lists is not the best option possible!!
+                                
+                 
+->Linked List Disadvantages
+-> need more memory because of the references
+
+-> there is no random access 
+
+->can not go backwards
+
+->not predictable-running time of the application relies on what users do.
+                 
+                 
+                 
+                 
+                 
+                 
+                 
