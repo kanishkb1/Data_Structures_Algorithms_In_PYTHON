@@ -141,8 +141,11 @@ What if data structure becomes full?
 
 3. Memory efficiency: For the same number of elements, linked lists use more memory as a reference to the next node is also stored along with the data. However, size flexibility in linked lists may make them use less memory overall; this is useful when there is uncertainty about size or there are large variations in the size of data elements; memory equivalent to the upper limit on the size has to be allocated (even if not all of it is being used) while using arrays, whereas linked lists can increase their sizes step-by-step proportionately to the amount of data.
 
-4. Execution time: Any element in an array can be directly accessed with its index; however in the case of a linked list, all the previous elements must be traversed to reach any element. Also, better cache locality in arrays (due to contiguous memory allocation) can significantly improve performance. As a result, some operations (such as modifying a certain element) are faster in arrays, while some others (such as inserting/deleting an element in the data) are faster in linked lists.
+4. Execution time: Any element in an array can be directly accessed with its index; however in the case of a linked list, all the previous elements must be traversed to reach any element. 
+
+### Linked List Application
                  
-                 
-                 
-                 
+Opearing system uses almost all important data-streuctures.
+1. Low Memory Mangement- Important in low memory management when dealing with C programmijng malloc(0 and free(0 functions.
+
+
