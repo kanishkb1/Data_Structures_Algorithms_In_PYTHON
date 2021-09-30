@@ -145,7 +145,7 @@ What if data structure becomes full?
 
 ### Linked List Application
                  
-Opearing system uses almost all important data-streuctures.
+Operating system uses almost all important data-streuctures.
 1. Low Memory Mangement- Important in low memory management when dealing with C programmijng malloc(0 and free(0 functions.
 
 
