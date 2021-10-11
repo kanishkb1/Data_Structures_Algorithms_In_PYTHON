@@ -148,4 +148,31 @@ What if data structure becomes full?
 Operating system uses almost all important data-streuctures.
 1. Low Memory Mangement- Important in low memory management when dealing with C programmijng malloc(0 and free(0 functions.
 
+## Double Linked Lists
 
+-> It is slow operation to insert items at the end. - O(N) running time
+
+-> It is another data structure so the main aim is to store items efficiently.
+
+-> We have to access to the first node (head node) and we have access to the last nide of the linked list(tail node).
+
+-> Every node stores the data itself and references to the next node and to previous node.
+
+-> Double linked list need more memory than linked lists.
+
+->Advantage
+      -> there can not be any holes in the data structures.
+
+      -> it can be transversed in both directions.
+      
+      -> removing a node is easier because there is pointer to the previous node as well.
+      
+->Disadvantages
+
+      -> need more memory because of 2 references. (2 pointers)
+      
+      -> a bit more complicated to implement because we hjave ti handle both of the pointers
+      
+      ->still have not solved the main issue- How to search for arbitrary items faster than O(N) linear running time?
+      
+      
