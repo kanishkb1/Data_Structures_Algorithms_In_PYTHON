@@ -166,6 +166,7 @@ Operating system uses almost all important data-streuctures.
       -> it can be transversed in both directions.
       
       -> removing a node is easier because there is pointer to the previous node as well.
+     
       
 ->Disadvantages
 
@@ -187,3 +188,12 @@ Operating system uses almost all important data-streuctures.
             
            First pointer: traverse the linked list one node at time.
            Second pointer: traverse the linked list 
+### How to reverse a linked list
+
+Task- Construct in-place algorithm to reverse a singly linked list.
+
+1)Naive solution-We consider all nodes one by one then construct another linked list in reverse order.
+            Problem: O(N) memory complexity so it not in-place.
+            
+2)Using pointers:
+      We can achieve an in-place algorithm that has O(N) linear time complexity as well.
