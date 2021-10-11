@@ -175,4 +175,15 @@ Operating system uses almost all important data-streuctures.
       
       ->still have not solved the main issue- How to search for arbitrary items faster than O(N) linear running time?
       
-      
+### Middle node in linked list (problem)
+
+      The task is to find the middle node of linked list without the need for extra memory.
+ 
+      1) Naive solution-we iterate through list and count how many elements are in total.
+            Transverse the llist again and node index count/2 is the middle node.
+            
+      2) Using two pointers
+            We can use two pointers to get middle node O(N)
+            
+           First pointer: traverse the linked list one node at time.
+           Second pointer: traverse the linked list 
