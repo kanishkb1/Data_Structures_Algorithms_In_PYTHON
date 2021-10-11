@@ -166,6 +166,7 @@ Operating system uses almost all important data-streuctures.
       -> it can be transversed in both directions.
       
       -> removing a node is easier because there is pointer to the previous node as well.
+     
       
 ->Disadvantages
 
@@ -180,10 +181,19 @@ Operating system uses almost all important data-streuctures.
       The task is to find the middle node of linked list without the need for extra memory.
  
       1) Naive solution-we iterate through list and count how many elements are in total.
-            Transverse the llist again and node index count/2 is the middle node.
+            Transverse the list again and node index count/2 is the middle node.
             
       2) Using two pointers
             We can use two pointers to get middle node O(N)
             
            First pointer: traverse the linked list one node at time.
            Second pointer: traverse the linked list 
+### How to reverse a linked list
+
+Task- Construct in-place algorithm to reverse a singly linked list.
+
+1)Naive solution-We consider all nodes one by one then construct another linked list in reverse order.
+            Problem: O(N) memory complexity so it not in-place.
+            
+2)Using pointers:
+      We can achieve an in-place algorithm that has O(N) linear time complexity as well.
