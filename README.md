@@ -229,6 +229,25 @@ Task- Construct in-place algorithm to reverse a singly linked list.
 
 -> Heap memory - large size, slow access and stored objects.
 
+# Queues
+
+->it is an abstract data type and can be implemented using linked lists or arrays.
+
+->FIFO structure- First In, First out.
+
+->Basic operations- enqueue(), dequeue(), peek().
+
+->Several applications in operating system and thread management.
+
+## Queue applications
+
+->threads are stored in queues
+
+->queues are important in CPU scheduling
+
+->graph algorithms rely heavy on queues
 
 
+
+-
 
