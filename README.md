@@ -197,3 +197,38 @@ Task- Construct in-place algorithm to reverse a singly linked list.
             
 2)Using pointers:
       We can achieve an in-place algorithm that has O(N) linear time complexity as well.
+      
+# Stacks
+
+->Abstract data type 
+
+-> implemented either with arrays or linked lists
+
+->LIFO- Last In, First Out
+
+-> Basic Operations- Pop(), Push(), Peek()
+
+### Applications
+-> Most programming languages are stack oriented.
+
+->Graph algorithms heavily rely on stacks (DFS implemented using stack).
+
+->Eulerian cycle in a G(V,E) graph.
+
+### Memory Management
+
+-> 2 main types of memory: stack memory and heap memory.
+
+-> The stack memory is sppcial region in the RAM (random access memory)
+
+-> this is special data type (stack) that stores the active functions and local variables as well.
+
+-> This is how python works where to return finish execution 
+
+-> Stack memory- small size, fast access and no fragmentation.
+
+-> Heap memory - large size, slow access and stored objects.
+
+
+
+
