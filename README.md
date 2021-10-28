@@ -247,7 +247,80 @@ Task- Construct in-place algorithm to reverse a singly linked list.
 
 ->graph algorithms rely heavy on queues
 
+# Binary Search Trees
 
+-> Array can manipulate the last item in O(1) constant running time coplexity that is quite fast.
+
+-> Linked List can manipulate the first item of the data structure.
+
+-> Searching for an arbitrary item-> O(N)
+
+-> If data structure is sorted-O(logN) alogrithmic complexity.
+
+-> this is concept of binary search.
+
+-> Trees- A tree is a G(V,E) undirected graph in which any two vertices are connected by exactly one path or equivalently a connected acyclic undirected graph.
+
+-> We have access to root noe exclusively all othetr nodes can be accessed via the root node.
+
+-> Leaf nodes with no children at all.
+
+-> We can define parent and child relationship.
+
+## BST details
+
+-> Every node in the tree can have ayt most 2 childten.
+
+-> Left child is smaller than parent node.
+
+-> Right child is greater than parent node.
+
+-> We can access the root node exclusivly and all other nodes can be accessed via root node.
+
+->Every decision can get rid of half of the data (Binary search) and this is how can achieve O(log N) running time.
+
+-> The height of the tree is the number of edges on longest downward between the root and a leaf node.
+
+-> Layer h, we have 2^h - 1 nodes.
+
+-> The logarithmic O(log N) running time is valid only when the tree is balanced.
+
+->Should keep the height of the trees at minimum. (h=log N)
+
+->If tree is not balanced so the h=log N relation is no more valid.
+
+->The minimum item in the binary tree is the leftmost item in the tree.
+
+-> The maximum item in the binary tree is the rightmost item in the tree.
+
+## Binary search trees
+
+1. Removing a leaf node-> Basically we have to notify the parent that the child has been removed. The node will be removed by the garbage collector.
+
+2. Removing a node with a single child- Basically we have to notify the parent that left or right child has been changed.
+
+3. Removing a node with two children- the smallest item in the right sutree is called successor and the largest item in the left subtree is caled predecessor.
+
+# Binary Search Tree Traversal
+
+1. Tree Transversal means visiting every node of binary search tree exactly once in O(N) linear running time.
+2. Tree traversal- 1. Pre-order, 2. In-order, 3. Post-order trasversal
+3. Pre-order-> We visit the root node of the binary tree then the left subtree and finally the right subtree in recursive manner.
+4. Post-order-> We visit the left subtree of the binary tree then the right subtree and finally the root node in recursive manner.
+5. In-order -> We visit the left sub-tree then the root node and finally the right subtree in recursive manner.
+
+
+
+# Running time complexity
+
+Worst case- O(N) for space complexity, insertion, deletion and search.
+
+Average case- Space complexity (O(N), Insertion O(log N), Deletion O(Log(N) AND SEARCH(LOG N)
+
+
+
+
+Real world applications- 1. OS, 2. Game Trees 3. Machine Learning
 
 
 
