@@ -251,11 +251,11 @@ Task- Construct in-place algorithm to reverse a singly linked list.
 
 -> Array can manipulate the last item in O(1) constant running time coplexity that is quite fast.
 
--> Linkied List can manipulate the first item of the data structure.
+-> Linked List can manipulate the first item of the data structure.
 
 -> Searching for an arbitrary item-> O(N)
 
--> If data structure is sorted-O(logN) logrithmic complexity.
+-> If data structure is sorted-O(logN) alogrithmic complexity.
 
 -> this is concept of binary search.
 
@@ -271,7 +271,7 @@ Task- Construct in-place algorithm to reverse a singly linked list.
 
 -> Every node in the tree can have ayt most 2 childten.
 
--> Left child is smaler than thre parent node.
+-> Left child is smaller than parent node.
 
 -> Right child is greater than parent node.
 
@@ -309,11 +309,15 @@ Task- Construct in-place algorithm to reverse a singly linked list.
 4. Post-order-> We visit the left subtree of the binary tree then the right subtree and finally the root node in recursive manner.
 5. In-order -> We visit the left sub-tree then the root node and finally the right subtree in recursive manner.
 
+
+
 # Running time complexity
 
 Worst case- O(N) for space complexity, insertion, deletion and search.
 
 Average case- Space complexity (O(N), Insertion O(log N), Deletion O(Log(N) AND SEARCH(LOG N)
+
+
 
 
 Real world applications- 1. OS, 2. Game Trees 3. Machine Learning
